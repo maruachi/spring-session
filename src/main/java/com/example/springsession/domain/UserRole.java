@@ -1,4 +1,4 @@
-package com.example.springsession.login;
+package com.example.springsession.domain;
 
 public enum UserRole {
     USER, ADMIN

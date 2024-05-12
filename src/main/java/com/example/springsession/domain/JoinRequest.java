@@ -1,4 +1,4 @@
-package com.example.springsession.login;
+package com.example.springsession.domain;
 
 import jakarta.validation.constraints.NotBlank;
 import lombok.Getter;

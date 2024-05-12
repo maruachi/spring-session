@@ -1,4 +1,4 @@
-package com.example.springsession.login;
+package com.example.springsession.domain;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -80,7 +80,7 @@ public class UserService {
      * userId가 null이거나(로그인 X) userId로 찾아온 User가 없으면 null return
      * userId로 찾아온 User가 존재하면 User return
      */
-    public User getLoginUserById(Long userId) {
+    public User getLoginUser(Long userId) {
         if(userId == null) return null;
 
         Optional<User> optionalUser = userRepository.findById(userId);

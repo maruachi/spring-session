@@ -1,4 +1,4 @@
-package com.example.springsession.login;
+package com.example.springsession.domain;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
